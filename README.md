@@ -8,7 +8,7 @@ http://localhost:19900/overview
 
 https://kafka.apache.org/documentation/
 
-Module 1：Introduction to Kafka and the Ecosystem A
+Module 1：Introduction to Kafka and the Ecosystem
 
  1-1：WhyApache Kafka
  
