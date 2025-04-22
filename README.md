@@ -2,6 +2,8 @@
 
 有Web UI 介面
 
+http://localhost:19900/overview
+
 Module 1：Introduction to Kafka and the Ecosystem A
 
  1-1：WhyApache Kafka
@@ -32,5 +34,13 @@ Windows  - Go into Kafka docker container
  
  • $ docker-compose up -d
  
- • $ docker exec -it kafka bash"
+ • $ docker exec -it kafka bash
+
+ kafka-topics --create \
+  --bootstrap-server localhost:9092 \
+  --replication-factor 1 \
+  --partitions 1 \
+  --topic test
+
+
  
