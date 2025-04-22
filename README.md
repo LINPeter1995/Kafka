@@ -2,6 +2,8 @@
 
 有Web UI 介面
 
+https://kafka.apache.org/documentation/
+
 http://localhost:19900/overview
 
 Module 1：Introduction to Kafka and the Ecosystem A
