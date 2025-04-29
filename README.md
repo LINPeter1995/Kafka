@@ -47,10 +47,10 @@ docker start kafka
 docker-compose down
 
 docker-compose up -d
- 
-docker exec -it kafka bash
 
 進入容器裡的 Linux 終端機
+ 
+docker exec -it kafka bash
 
 [appuser@kafka ~]$     
 
