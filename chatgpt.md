@@ -91,7 +91,7 @@ Kafka Connect / Sink / Source
 
 多 Broker、多 Partition
 
-設定 replication.factor
+設定 replication.factor 是每個 partition 在 Kafka cluster 中會被複製的副本數量
 
 Kafka 的 leader election 機制
 
