@@ -39,12 +39,20 @@ cd kafka-tutorial-docker-env 進入專案資料夾
 docker-compose up -d 用 docker-compose 啟動 Kafka、Zookeeper 等容器
 
 # 進入 Kafka Docker 容器後執行
+
+docker start kafka
+
+或是
+
+docker-compose down
+
+docker-compose up -d
  
 docker exec -it kafka bash
 
 進入容器裡的 Linux 終端機
 
-root@<container_id>:/#     
+[appuser@kafka ~]$     
 
 在這裡你才能下 Kafka CLI 的指令
  
