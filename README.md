@@ -30,17 +30,17 @@ Windows  - Go into Kafka docker container
 
 # 在 Windows PowerShell 執行 
  
-$ cd $env:USERPROFILE\Desktop 切到桌面資料夾
+cd $env:USERPROFILE\Desktop 切到桌面資料夾
  
-$ git clone https://github.com/semicolon1709/kafka-tutorial-docker-env.git 用 git clone 下載範例專案
+git clone https://github.com/semicolon1709/kafka-tutorial-docker-env.git 用 git clone 下載範例專案
  
-$ cd kafka-tutorial-docker-env 進入專案資料夾
+cd kafka-tutorial-docker-env 進入專案資料夾
  
-$ docker-compose up -d 用 docker-compose 啟動 Kafka、Zookeeper 等容器
+docker-compose up -d 用 docker-compose 啟動 Kafka、Zookeeper 等容器
 
 # 進入 Kafka Docker 容器後執行
  
-$ docker exec -it kafka bash
+docker exec -it kafka bash
 
 進入容器裡的 Linux 終端機
 
