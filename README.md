@@ -28,9 +28,7 @@ Module 3：Hands-on Practice of Apache Kafka
 
 Windows  - Go into Kafka docker container
 
-# 在 Windows PowerShell 執行
-  
-Start Docker Desktop 
+# 在 Windows PowerShell 執行 
  
 $ cd $env:USERPROFILE\Desktop 切到桌面資料夾
  
