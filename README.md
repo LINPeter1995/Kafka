@@ -1,5 +1,21 @@
 # Kafka
 
+角色：高吞吐量的資料流平台。
+
+用途：
+
+作為串流資料的「中介平台」。
+
+IoT、Web log、交易資料等都可以透過 Kafka 傳入資料湖。
+
+典型用途：與 Spark Streaming 整合做即時資料分析。
+
+關聯性：
+
+Kafka 可供 Spark 消費，即時處理。
+
+Kafka 也能把資料傳到 Hadoop / HDFS 做長期存儲。
+
 有Web UI 介面
 
 http://localhost:19900/overview
